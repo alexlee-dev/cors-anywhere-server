@@ -8,7 +8,6 @@ export const checkIfMongoDBIsRunning = async (): Promise<any> =>
     try {
       if (!process.env.MONGODB_URL) throw new Error("No MONGODB_URL");
 
-      /* NEW LINE */
       const response = await fetch(
         process.env.MONGODB_URL.replace(/mongodb:\/\//gm, "http://")
       );
