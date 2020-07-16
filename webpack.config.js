@@ -23,8 +23,9 @@ module.exports = {
     contentBase: path.join(__dirname, "public"),
     historyApiFallback: true,
     open: true,
+    port: 5555,
     proxy: {
-      "*": "http://localhost:3000",
+      "*": "http://localhost:5000",
     },
   },
   devtool: "source-map",

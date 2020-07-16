@@ -26,8 +26,8 @@ class App {
     this.app.use(express.json());
     this.app.use(morgan("dev"));
     const whitelistDomains = [
-      "http://localhost:3000",
-      "http://localhost:8080",
+      "http://localhost:5000",
+      "http://localhost:5555",
       undefined,
     ];
 
