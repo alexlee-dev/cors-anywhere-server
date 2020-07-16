@@ -1,6 +1,6 @@
 {
-  "name": "cors-anywhere",
-  "short_name": "cors-anywhere",
+  "name": "cors-anywhere-server",
+  "short_name": "cors-anywhere-server",
   "icons": [
     {
       "src": "/android-chrome-192x192.png",

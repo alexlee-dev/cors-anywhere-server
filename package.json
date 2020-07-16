@@ -1,7 +1,7 @@
 {
-  "name": "cors-anywhere",
+  "name": "cors-anywhere-server",
   "version": "0.0.0",
-  "description": "A MERN application bootstrapped with create-mern-application.",
+  "description": "A self-hosted version of cors-anywhere",
   "main": "build/index.js",
   "scripts": {
     "build": "npm run build-client && npm run build-server",
@@ -20,6 +20,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "cors": "^2.8.5",
+    "cors-anywhere": "^0.4.3",
     "express": "^4.17.1",
     "mongoose": "^5.9.24",
     "morgan": "^1.10.0",
